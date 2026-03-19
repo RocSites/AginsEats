@@ -17,6 +17,38 @@
     margin-top: 1rem;
 }
 
+@media (max-width: 600px) {
+
+    body {
+        border: 10px solid red;
+    }
+    .jumbotron h1,
+    .jumbotron p {
+        text-align: center;
+    }
+
+    #randomRestaurantButton {
+        width: 100%;
+    }
+
+    #anyRestaurant h3 {
+        font-size: 2rem;
+    }
+
+    #dropDownWrapper {
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    #dropdownMenuButton {
+        width: 100vw;
+    }
+
+    #categoryDropdown {
+        width: 100vw;
+    }
+}
+
 @media (min-width: 650px) {
     h1 {
         font-size: 4.5rem !important;
