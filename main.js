@@ -86,13 +86,11 @@ const restaurants = [
 const categories = [
     "Italian",
     "American",
-    "Sandwiches",
     "Asian",
     "Breakfast",
     "French",
     "Mexican",
-    "Greek",
-    "Pizza"
+    "Greek"
 ];
 
 const giveRandomRestaurant = () => {
